@@ -6,7 +6,7 @@ import time
 import logging
 from scrapy.utils.project import get_project_settings
 
-from dytt.spiders.dy_tt import DyTtSpider
+from dytt.dytt.spiders.dy_tt import DyTtSpider
 
 configure_logging()
 # asyncioreactor.install(asyncio.get_event_loop())
